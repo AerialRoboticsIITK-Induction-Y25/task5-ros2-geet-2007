@@ -1,3 +1,0 @@
-/home/claude/cpp_part1/build/CMakeFiles/drone_demo.dir
-/home/claude/cpp_part1/build/CMakeFiles/edit_cache.dir
-/home/claude/cpp_part1/build/CMakeFiles/rebuild_cache.dir
