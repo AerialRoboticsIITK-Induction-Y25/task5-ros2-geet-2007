@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/drone_demo.dir/src/vehicle.cpp.o CMakeFiles/drone_demo.dir/src/drone.cpp.o CMakeFiles/drone_demo.dir/src/mission_drone.cpp.o CMakeFiles/drone_demo.dir/src/autonomous_drone.cpp.o CMakeFiles/drone_demo.dir/src/main.cpp.o -o drone_demo 
