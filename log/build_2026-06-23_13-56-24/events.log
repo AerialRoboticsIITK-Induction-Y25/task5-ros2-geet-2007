@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.000177] (drone_fleet) JobQueued: {'identifier': 'drone_fleet', 'dependencies': OrderedDict()}
+[0.000875] (drone_fleet) JobStarted: {'identifier': 'drone_fleet'}
+[0.005129] (drone_fleet) JobProgress: {'identifier': 'drone_fleet', 'progress': 'cmake'}
+[0.005486] (drone_fleet) Command: {'cmd': ['/usr/bin/cmake', '/home/geet/Downloads/fleet_ws/src/drone_fleet', '-DCMAKE_INSTALL_PREFIX=/home/geet/Downloads/fleet_ws/install/drone_fleet'], 'cwd': '/home/geet/Downloads/fleet_ws/build/drone_fleet', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'geet', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/geet', 'OLDPWD': '/home/geet/Downloads/fleet_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2617', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'geet', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'geet', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/geet-LOQ-15IAX9:@/tmp/.ICE-unix/2582,unix/geet-LOQ-15IAX9:/tmp/.ICE-unix/2582', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1e8f1587_dcd1_4b61_a32a_8c4a1673c899', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7444Q3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/geet/Downloads/fleet_ws/build/drone_fleet', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.061817] (drone_fleet) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099610] (-) TimerEvent: {}
+[0.132673] (drone_fleet) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.151109] (drone_fleet) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199745] (-) TimerEvent: {}
+[0.264234] (drone_fleet) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.278297] (drone_fleet) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.278690] (drone_fleet) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.278967] (drone_fleet) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.291219] (drone_fleet) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299923] (-) TimerEvent: {}
+[0.400344] (-) TimerEvent: {}
+[0.418649] (drone_fleet) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.431219] (drone_fleet) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.431548] (drone_fleet) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.431855] (drone_fleet) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.433567] (drone_fleet) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.500494] (-) TimerEvent: {}
+[0.575430] (drone_fleet) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.600613] (-) TimerEvent: {}
+[0.659741] (drone_fleet) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.687170] (drone_fleet) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.695726] (drone_fleet) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.700676] (-) TimerEvent: {}
+[0.706078] (drone_fleet) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.717962] (drone_fleet) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.769621] (drone_fleet) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.771203] (drone_fleet) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800791] (-) TimerEvent: {}
+[0.846302] (drone_fleet) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.866900] (drone_fleet) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.885745] (drone_fleet) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.900918] (-) TimerEvent: {}
+[0.938318] (drone_fleet) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.948514] (drone_fleet) StdoutLine: {'line': b'-- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[1.001112] (-) TimerEvent: {}
+[1.026336] (drone_fleet) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.040655] (drone_fleet) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.045755] (drone_fleet) StdoutLine: {'line': b'-- Build files have been written to: /home/geet/Downloads/fleet_ws/build/drone_fleet\n'}
+[1.053301] (drone_fleet) CommandEnded: {'returncode': 0}
+[1.054401] (drone_fleet) JobProgress: {'identifier': 'drone_fleet', 'progress': 'build'}
+[1.054435] (drone_fleet) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/geet/Downloads/fleet_ws/build/drone_fleet', '--', '-j12', '-l12'], 'cwd': '/home/geet/Downloads/fleet_ws/build/drone_fleet', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'geet', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/geet', 'OLDPWD': '/home/geet/Downloads/fleet_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2617', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'geet', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'geet', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/geet-LOQ-15IAX9:@/tmp/.ICE-unix/2582,unix/geet-LOQ-15IAX9:/tmp/.ICE-unix/2582', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1e8f1587_dcd1_4b61_a32a_8c4a1673c899', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7444Q3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/geet/Downloads/fleet_ws/build/drone_fleet', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.101763] (-) TimerEvent: {}
+[1.108150] (drone_fleet) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/drone_lib.dir/src/vehicle.cpp.o\x1b[0m\n'}
+[1.108668] (drone_fleet) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/drone_lib.dir/src/drone.cpp.o\x1b[0m\n'}
+[1.108992] (drone_fleet) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/drone_lib.dir/src/autonomous_drone.cpp.o\x1b[0m\n'}
+[1.109292] (drone_fleet) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/drone_lib.dir/src/mission_drone.cpp.o\x1b[0m\n'}
+[1.112605] (drone_fleet) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/fleet_manager.dir/src/fleet_manager.cpp.o\x1b[0m\n'}
+[1.120089] (drone_fleet) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/health_monitor.dir/src/health_monitor.cpp.o\x1b[0m\n'}
+[1.201867] (-) TimerEvent: {}
+[1.302163] (-) TimerEvent: {}
+[1.402439] (-) TimerEvent: {}
+[1.502724] (-) TimerEvent: {}
+[1.582853] (drone_fleet) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX static library libdrone_lib.a\x1b[0m\n'}
+[1.602834] (-) TimerEvent: {}
+[1.618003] (drone_fleet) StdoutLine: {'line': b'[ 53%] Built target drone_lib\n'}
+[1.635987] (drone_fleet) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/drone_node.dir/src/drone_node.cpp.o\x1b[0m\n'}
+[1.637975] (drone_fleet) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/drone_demo.dir/src/main.cpp.o\x1b[0m\n'}
+[1.702943] (-) TimerEvent: {}
+[1.803248] (-) TimerEvent: {}
+[1.903566] (-) TimerEvent: {}
+[1.930713] (drone_fleet) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable drone_demo\x1b[0m\n'}
+[2.003683] (-) TimerEvent: {}
+[2.030297] (drone_fleet) StdoutLine: {'line': b'[ 76%] Built target drone_demo\n'}
+[2.103795] (-) TimerEvent: {}
+[2.204072] (-) TimerEvent: {}
+[2.304361] (-) TimerEvent: {}
+[2.404641] (-) TimerEvent: {}
+[2.504924] (-) TimerEvent: {}
+[2.605191] (-) TimerEvent: {}
+[2.705516] (-) TimerEvent: {}
+[2.805863] (-) TimerEvent: {}
+[2.906173] (-) TimerEvent: {}
+[3.006608] (-) TimerEvent: {}
+[3.106926] (-) TimerEvent: {}
+[3.207243] (-) TimerEvent: {}
+[3.307507] (-) TimerEvent: {}
+[3.407828] (-) TimerEvent: {}
+[3.508154] (-) TimerEvent: {}
+[3.608440] (-) TimerEvent: {}
+[3.708734] (-) TimerEvent: {}
+[3.809035] (-) TimerEvent: {}
+[3.909426] (-) TimerEvent: {}
+[4.009807] (-) TimerEvent: {}
+[4.110207] (-) TimerEvent: {}
+[4.210573] (-) TimerEvent: {}
+[4.310874] (-) TimerEvent: {}
+[4.411249] (-) TimerEvent: {}
+[4.511532] (-) TimerEvent: {}
+[4.611834] (-) TimerEvent: {}
+[4.712149] (-) TimerEvent: {}
+[4.812441] (-) TimerEvent: {}
+[4.902322] (drone_fleet) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX executable drone_node\x1b[0m\n'}
+[4.912548] (-) TimerEvent: {}
+[5.012849] (-) TimerEvent: {}
+[5.044874] (drone_fleet) StdoutLine: {'line': b'[ 84%] Built target drone_node\n'}
+[5.112954] (-) TimerEvent: {}
+[5.213219] (-) TimerEvent: {}
+[5.313489] (-) TimerEvent: {}
+[5.413755] (-) TimerEvent: {}
+[5.514034] (-) TimerEvent: {}
+[5.614357] (-) TimerEvent: {}
+[5.714627] (-) TimerEvent: {}
+[5.814890] (-) TimerEvent: {}
+[5.915158] (-) TimerEvent: {}
+[6.015427] (-) TimerEvent: {}
+[6.115733] (-) TimerEvent: {}
+[6.216021] (-) TimerEvent: {}
+[6.316282] (-) TimerEvent: {}
+[6.416562] (-) TimerEvent: {}
+[6.516836] (-) TimerEvent: {}
+[6.617107] (-) TimerEvent: {}
+[6.717366] (-) TimerEvent: {}
+[6.817663] (-) TimerEvent: {}
+[6.917954] (-) TimerEvent: {}
+[7.018250] (-) TimerEvent: {}
+[7.109762] (drone_fleet) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable health_monitor\x1b[0m\n'}
+[7.118348] (-) TimerEvent: {}
+[7.218639] (-) TimerEvent: {}
+[7.318971] (-) TimerEvent: {}
+[7.320236] (drone_fleet) StdoutLine: {'line': b'[ 92%] Built target health_monitor\n'}
+[7.394726] (drone_fleet) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable fleet_manager\x1b[0m\n'}
+[7.419104] (-) TimerEvent: {}
+[7.519481] (-) TimerEvent: {}
+[7.605427] (drone_fleet) StdoutLine: {'line': b'[100%] Built target fleet_manager\n'}
+[7.616060] (drone_fleet) CommandEnded: {'returncode': 0}
+[7.616776] (drone_fleet) JobProgress: {'identifier': 'drone_fleet', 'progress': 'install'}
+[7.619559] (-) TimerEvent: {}
+[7.627246] (drone_fleet) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/geet/Downloads/fleet_ws/build/drone_fleet'], 'cwd': '/home/geet/Downloads/fleet_ws/build/drone_fleet', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'geet', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/geet', 'OLDPWD': '/home/geet/Downloads/fleet_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2617', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'geet', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'geet', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/geet-LOQ-15IAX9:@/tmp/.ICE-unix/2582,unix/geet-LOQ-15IAX9:/tmp/.ICE-unix/2582', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1e8f1587_dcd1_4b61_a32a_8c4a1673c899', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7444Q3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/geet/Downloads/fleet_ws/build/drone_fleet', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.641577] (drone_fleet) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.641851] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/lib/drone_fleet/drone_demo\n'}
+[7.642361] (drone_fleet) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/geet/Downloads/fleet_ws/install/drone_fleet/lib/drone_fleet/drone_demo" to ""\n'}
+[7.642570] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/lib/drone_fleet/drone_node\n'}
+[7.643813] (drone_fleet) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/geet/Downloads/fleet_ws/install/drone_fleet/lib/drone_fleet/drone_node" to ""\n'}
+[7.643941] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/lib/drone_fleet/fleet_manager\n'}
+[7.646520] (drone_fleet) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/geet/Downloads/fleet_ws/install/drone_fleet/lib/drone_fleet/fleet_manager" to ""\n'}
+[7.646658] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/lib/drone_fleet/health_monitor\n'}
+[7.649253] (drone_fleet) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/geet/Downloads/fleet_ws/install/drone_fleet/lib/drone_fleet/health_monitor" to ""\n'}
+[7.649539] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/launch\n'}
+[7.649700] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/launch/fleet.launch.py\n'}
+[7.649974] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/ament_index/resource_index/package_run_dependencies/drone_fleet\n'}
+[7.650198] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/ament_index/resource_index/parent_prefix_path/drone_fleet\n'}
+[7.650498] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/environment/ament_prefix_path.sh\n'}
+[7.650800] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/environment/ament_prefix_path.dsv\n'}
+[7.650971] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/environment/path.sh\n'}
+[7.651120] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/environment/path.dsv\n'}
+[7.651263] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.bash\n'}
+[7.651419] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.sh\n'}
+[7.651553] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.zsh\n'}
+[7.651686] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.dsv\n'}
+[7.651811] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/package.dsv\n'}
+[7.651945] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/ament_index/resource_index/packages/drone_fleet\n'}
+[7.652265] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/cmake/drone_fleetConfig.cmake\n'}
+[7.652471] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/cmake/drone_fleetConfig-version.cmake\n'}
+[7.652691] (drone_fleet) StdoutLine: {'line': b'-- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/package.xml\n'}
+[7.653217] (drone_fleet) CommandEnded: {'returncode': 0}
+[7.666109] (drone_fleet) JobEnded: {'identifier': 'drone_fleet', 'rc': 0}
+[7.666751] (-) EventReactorShutdown: {}

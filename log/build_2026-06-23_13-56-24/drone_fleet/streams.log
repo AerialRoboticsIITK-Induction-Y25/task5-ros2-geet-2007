@@ -1,0 +1,79 @@
+[0.006s] Invoking command in '/home/geet/Downloads/fleet_ws/build/drone_fleet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/geet/Downloads/fleet_ws/src/drone_fleet -DCMAKE_INSTALL_PREFIX=/home/geet/Downloads/fleet_ws/install/drone_fleet
+[0.061s] -- The C compiler identification is GNU 13.3.0
+[0.132s] -- The CXX compiler identification is GNU 13.3.0
+[0.150s] -- Detecting C compiler ABI info
+[0.264s] -- Detecting C compiler ABI info - done
+[0.278s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.278s] -- Detecting C compile features - done
+[0.291s] -- Detecting CXX compiler ABI info
+[0.418s] -- Detecting CXX compiler ABI info - done
+[0.430s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.431s] -- Detecting CXX compile features
+[0.431s] -- Detecting CXX compile features - done
+[0.433s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.575s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.659s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.686s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.695s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.705s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.717s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.769s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.770s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.846s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.866s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.885s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.938s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.948s] -- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.026s] -- Configuring done (1.0s)
+[1.040s] -- Generating done (0.0s)
+[1.045s] -- Build files have been written to: /home/geet/Downloads/fleet_ws/build/drone_fleet
+[1.053s] Invoked command in '/home/geet/Downloads/fleet_ws/build/drone_fleet' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/geet/Downloads/fleet_ws/src/drone_fleet -DCMAKE_INSTALL_PREFIX=/home/geet/Downloads/fleet_ws/install/drone_fleet
+[1.054s] Invoking command in '/home/geet/Downloads/fleet_ws/build/drone_fleet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/geet/Downloads/fleet_ws/build/drone_fleet -- -j12 -l12
+[1.108s] [  7%] [32mBuilding CXX object CMakeFiles/drone_lib.dir/src/vehicle.cpp.o[0m
+[1.108s] [ 15%] [32mBuilding CXX object CMakeFiles/drone_lib.dir/src/drone.cpp.o[0m
+[1.108s] [ 23%] [32mBuilding CXX object CMakeFiles/drone_lib.dir/src/autonomous_drone.cpp.o[0m
+[1.109s] [ 30%] [32mBuilding CXX object CMakeFiles/drone_lib.dir/src/mission_drone.cpp.o[0m
+[1.112s] [ 38%] [32mBuilding CXX object CMakeFiles/fleet_manager.dir/src/fleet_manager.cpp.o[0m
+[1.119s] [ 46%] [32mBuilding CXX object CMakeFiles/health_monitor.dir/src/health_monitor.cpp.o[0m
+[1.582s] [ 53%] [32m[1mLinking CXX static library libdrone_lib.a[0m
+[1.617s] [ 53%] Built target drone_lib
+[1.635s] [ 61%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/drone_node.cpp.o[0m
+[1.637s] [ 69%] [32mBuilding CXX object CMakeFiles/drone_demo.dir/src/main.cpp.o[0m
+[1.930s] [ 76%] [32m[1mLinking CXX executable drone_demo[0m
+[2.030s] [ 76%] Built target drone_demo
+[4.902s] [ 84%] [32m[1mLinking CXX executable drone_node[0m
+[5.044s] [ 84%] Built target drone_node
+[7.109s] [ 92%] [32m[1mLinking CXX executable health_monitor[0m
+[7.320s] [ 92%] Built target health_monitor
+[7.394s] [100%] [32m[1mLinking CXX executable fleet_manager[0m
+[7.605s] [100%] Built target fleet_manager
+[7.615s] Invoked command in '/home/geet/Downloads/fleet_ws/build/drone_fleet' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/geet/Downloads/fleet_ws/build/drone_fleet -- -j12 -l12
+[7.627s] Invoking command in '/home/geet/Downloads/fleet_ws/build/drone_fleet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/geet/Downloads/fleet_ws/build/drone_fleet
+[7.641s] -- Install configuration: ""
+[7.641s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/lib/drone_fleet/drone_demo
+[7.642s] -- Set non-toolchain portion of runtime path of "/home/geet/Downloads/fleet_ws/install/drone_fleet/lib/drone_fleet/drone_demo" to ""
+[7.642s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/lib/drone_fleet/drone_node
+[7.643s] -- Set non-toolchain portion of runtime path of "/home/geet/Downloads/fleet_ws/install/drone_fleet/lib/drone_fleet/drone_node" to ""
+[7.643s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/lib/drone_fleet/fleet_manager
+[7.646s] -- Set non-toolchain portion of runtime path of "/home/geet/Downloads/fleet_ws/install/drone_fleet/lib/drone_fleet/fleet_manager" to ""
+[7.646s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/lib/drone_fleet/health_monitor
+[7.648s] -- Set non-toolchain portion of runtime path of "/home/geet/Downloads/fleet_ws/install/drone_fleet/lib/drone_fleet/health_monitor" to ""
+[7.649s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/launch
+[7.649s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/launch/fleet.launch.py
+[7.649s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/ament_index/resource_index/package_run_dependencies/drone_fleet
+[7.649s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/ament_index/resource_index/parent_prefix_path/drone_fleet
+[7.650s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/environment/ament_prefix_path.sh
+[7.650s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/environment/ament_prefix_path.dsv
+[7.650s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/environment/path.sh
+[7.650s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/environment/path.dsv
+[7.650s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.bash
+[7.651s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.sh
+[7.651s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.zsh
+[7.651s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.dsv
+[7.651s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/package.dsv
+[7.651s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/ament_index/resource_index/packages/drone_fleet
+[7.651s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/cmake/drone_fleetConfig.cmake
+[7.652s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/cmake/drone_fleetConfig-version.cmake
+[7.652s] -- Installing: /home/geet/Downloads/fleet_ws/install/drone_fleet/share/drone_fleet/package.xml
+[7.653s] Invoked command in '/home/geet/Downloads/fleet_ws/build/drone_fleet' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/geet/Downloads/fleet_ws/build/drone_fleet

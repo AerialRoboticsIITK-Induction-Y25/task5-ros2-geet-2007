@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-be5581795055cb77e5de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "drone_fleet",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "drone_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drone_demo-4683ceee9f5625051b76.json",
+					"name" : "drone_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drone_fleet_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drone_fleet_uninstall-a5031782df39f32c778c.json",
+					"name" : "drone_fleet_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drone_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drone_lib-c88601289cfee4910688.json",
+					"name" : "drone_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drone_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drone_node-b800dc001c90e499ce9d.json",
+					"name" : "drone_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fleet_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fleet_manager-49aac6df5da0d099cb4c.json",
+					"name" : "fleet_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "health_monitor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-health_monitor-8a8507bb7f6416c953f2.json",
+					"name" : "health_monitor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-af3c6451fb8c0ffb2df2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/geet/Downloads/fleet_ws/build/drone_fleet",
+		"source" : "/home/geet/Downloads/fleet_ws/src/drone_fleet"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
